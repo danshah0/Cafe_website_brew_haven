@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Story | Brew Haven Café</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+        body{background-color:#ffffff;color:#1a1a1a;}
+        nav{background-color:#1E90FF;padding:15px 30px;display:flex;justify-content:space-between;align-items:center;}
+        nav .logo{color:#fff;font-size:22px;font-weight:600;text-decoration:none;}
+        nav ul{list-style:none;display:flex;gap:25px;}
+        nav ul li a{color:#fff;text-decoration:none;font-weight:500;transition:color 0.3s;}
+        nav ul li a:hover{color:#cce6ff;}
+        .story-section{max-width:1100px;margin:60px auto;padding:20px;}
+        .story-title{text-align:center;margin-bottom:50px;}
+        .story-title h1{font-size:38px;color:#1E90FF;}
+        .story-title p{color:#1a1a1a;margin-top:10px;}
+        .story-container{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+        .story-text{background-color:#f0f8ff;padding:30px;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,0.08);}
+        .story-text h2{color:#1E90FF;margin-bottom:15px;}
+        .story-text p{font-size:15px;margin-bottom:15px;text-align:justify;}
+        .story-image img{width:100%;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,0.1);}
+        footer{background-color:#1E90FF;color:#fff;text-align:center;padding:20px;margin-top:60px;}
+        @media(max-width:768px){.story-container{grid-template-columns:1fr;}.story-title h1{font-size:30px;}}
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="logo">Brew Haven Café</a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="ourstory.html">Our Story</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="story-section">
+    <div class="story-title">
+        <h1>Our Story</h1>
+        <p>"From a simple idea to your favorite café"</p>
+    </div>
+
+    <div class="story-container">
+        <div class="story-text">
+            <h2>Where It All Began</h2>
+            <p>Brew Haven Café began as a small dream shared by coffee lovers who believed a good cup of coffee could bring people together. What started as an idea grew into a cozy space filled with aroma and laughter.</p>
+            <p>Every detail, from carefully selected beans to calming interiors reflects our passion for quality and comfort. Coffee is not just a drink, it's an experience to savor.</p>
+            <p>Today, Brew Haven Café continues to be a place where memories are made, conversations flow, and every customer feels at home.</p>
+        </div>
+        <div class="story-image">
+            <img src="images/image2.jpg" alt="Cafe Story">
+        </div>
+    </div>
+</section>
+
+<footer>&copy; 2026 Brew Haven Café | All Rights Reserved</footer>
+
+</body>
+</html>
