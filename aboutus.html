@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | Brew Haven Café</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+        
+        * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif;}
+        
+        body { background-color:#ffffff; color:#1a1a1a; line-height:1.7; }
+        
+        nav { background-color:#1E90FF; padding:15px 30px; display:flex; justify-content:space-between; align-items:center; }
+        
+        nav .logo { color:#fff; font-size:22px; font-weight:600; text-decoration:none;}
+        
+        nav ul { list-style:none; display:flex; gap:25px; }
+        
+        nav ul li a { color:#fff; text-decoration:none; font-weight:500; transition:color 0.3s; }
+        
+        nav ul li a:hover { color:#cce6ff; }
+        
+        .about-section { max-width:1100px; margin:60px auto; padding:20px; }
+        
+        .about-container { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
+        
+        .about-text h1 { font-size:36px; color:#1E90FF; margin-bottom:15px; }
+        
+        .about-text h3 { font-weight:400; color:#1a1a1a; margin-bottom:20px; }
+        
+        .about-text p { font-size:15px; margin-bottom:15px; text-align:justify; }
+        
+        .about-text .btn { display:inline-block; margin-top:15px; padding:10px 25px; background-color:#1E90FF; color:#fff; text-decoration:none; border-radius:25px; transition:background 0.3s; }
+        
+        .about-text .btn:hover { background-color:#63b3ff; }
+        
+        .about-image img { width:100%; border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.1); }
+        
+        footer { background-color:#1E90FF; color:#fff; text-align:center; padding:20px; margin-top:60px; }
+        @media(max-width:768px){ .about-container{ grid-template-columns:1fr;} .about-text h1{ font-size:30px;} }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="logo">Brew Haven Café</a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="ourstory.html">Our Story</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="about-section">
+    <div class="about-container">
+        <div class="about-text">
+            <h1>About Us</h1>
+            <h3>A place where coffee meets comfort</h3>
+            <p>Brew Haven Café was founded with a simple idea, to create a welcoming space where people can enjoy quality coffee. From carefully selected coffee beans to freshly prepared meals, every detail matters.</p>
+            <p>Our café is more than just a place to grab a drink. It’s a cozy corner for friends to gather, students to study, and individuals to unwind. We take pride in serving freshly brewed coffee, handcrafted beverages, and comfort food made with love.</p>
+            <p>Whether you are here for your morning coffee, a casual meeting, or a quiet moment to yourself, Brew Haven Café is always ready to welcome you.</p>
+            <a href="menu.html" class="btn">Explore Our Menu</a>
+        </div>
+        <div class="about-image">
+            <img src="images/image1.jpg" alt="Cafe Image">
+        </div>
+    </div>
+</section>
+
+<footer>&copy; 2026 Brew Haven Café | All Rights Reserved</footer>
+
+</body>
+</html>
